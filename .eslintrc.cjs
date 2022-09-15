@@ -13,7 +13,8 @@ module.exports = {
   overrides: [],
   parserOptions: {
     ecmaVersion: 'latest',
-    sourceType: 'module'
+    sourceType: 'module',
+    project: ['./tsconfig.json']
   },
   plugins: ['vue'],
   rules: {}
