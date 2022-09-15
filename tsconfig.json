@@ -23,9 +23,7 @@
     "src/**/*.tsx",
     "src/**/*.vue",
     "./mock/**/*.ts",
-    "./auto-imports.d.ts",
-    "src/locales/language/zh_CN/index.ts",
-    "src/locales/language/en/index.ts"
+    "./auto-imports.d.ts"
   ],
   "references": [{ "path": "./tsconfig.node.json" }]
 }

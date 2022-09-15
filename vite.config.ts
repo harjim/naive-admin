@@ -68,6 +68,13 @@ export default ({ mode }) => {
           rewrite: (path) => path.replace(/^\/api/, '')
         }
       }
+    },
+    css: {
+      preprocessorOptions: {
+        scss: {
+          charset: false
+        }
+      }
     }
   })
 }

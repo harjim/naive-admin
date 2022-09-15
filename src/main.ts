@@ -4,6 +4,8 @@ import { createPinia } from 'pinia'
 import router from '@/router/index'
 import i18n from '@/locales/i18n'
 
+import './main.scss'
+
 const app = createApp(App)
 
 app.use(createPinia()).use(router).use(i18n)

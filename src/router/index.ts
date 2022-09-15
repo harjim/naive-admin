@@ -1,7 +1,7 @@
 import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router'
 import NProgress from 'nprogress'
 import 'nprogress/nprogress.css'
-import BasicLayout from '@/layouts/index'
+import BasicLayout from '@/layouts/BasicLayout.vue'
 import Login from '@/views/exception/Login'
 
 const routes: RouteRecordRaw[] = [
